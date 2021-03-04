@@ -2,560 +2,525 @@
 <html lang="en">
 
 <head>
+    <title>ing-GC Portfolio</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio">
 
-  <title>ing-GC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-  <!-- Custom fonts for this theme -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-    type="text/css">
-
-  <!-- Theme CSS -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
-  <style>
-    .checked {
-      color: #1bbc9b;
-    }
-
-    .altura {
-      height: 10rem;
-    }
-
-    .anchura {
-      width: 20rem;
-    }
-  </style>
+    <style>
+        .star {
+            background: gold;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            display: inline-block;
+            height: 1rem;
+            width: 1rem;
+        }
+        .star-gray {
+            background: gray;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            display: inline-block;
+            height: 1rem;
+            width: 1rem;
+        }
+    </style>
 </head>
 
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Gerardo Gallardo</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-        type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Tecnologies">Technologies</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-
-      <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">
-
-      <!-- Masthead Heading -->
-      <h1 class="masthead-heading text-uppercase mb-0">Software Engineer</h1>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Web developer - Laravel lover</p>
-
-    </div>
-  </header>
-
-  <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio">
-    <div class="container">
-
-      <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Portfolio Grid Items -->
-      <div class="row">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/repodez.svg" alt="" style="height: 12em; width: 20em;">
-          </div>
-          <p class="text-center lead" style="color: #1bbc9b;">REPODEZ</p>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/sidec.svg" alt="" style="height: 12em; width: 20em;">
-          </div>
-          <p class="text-center lead" style="color: #1bbc9b;">SIDEC</p>
-        </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/respic.svg" alt="" style="height: 12em; width: 20em;">
-          </div>
-          <p class="text-center lead" style="color: #1bbc9b;">RESPIC</p>
-        </div>
-
-
-
-      </div>
-      <!-- /.row -->
-
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-
-      <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">
-            I am a web developer, and software engineer currently living in Zacatecas, México.
-            My interests range from technology to programming.
-            I am also interested in web development, Laravel, Vue.js, Vaadin and Flutter.
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">
-            I am currently developing software in the Ministry of Public Administration.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Tecnologies Section -->
-  <section class="page-section portfolio" id="Tecnologies">
-    <div class="container">
-
-      <!-- Tecnologies Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Technologies</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Tecnologies Grid Items -->
-      <div class="row mt-4 pt-4">
-
-        <!-- Tecnologies Item 1 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 altura" src="img/php_1.png">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-
-        <!-- Tecnologies Item 2 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 altura" src="img/jquery_3.png">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-
-        <!-- Tecnologies Item 3 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 altura " src="img/sql_1.png">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fas fa-star-half-alt checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-
-        <!-- Tecnologies Item 1 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column mt-5 pt-5">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 altura" src="img/java_1.png">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-
-        <!-- Tecnologies Item 2 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column mt-5 pt-5">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 altura anchura" src="img/css_1.png">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fas fa-star-half-alt checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-
-        <!-- Tecnologies Item 3 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column mt-5 pt-5">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 altura" src="img/vagrant_1.png">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-
-        <!-- Tecnologies Item 1 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column mt-5 pt-5 mb-5 pb-5">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 anchura" src="img/laravel.png" style="height: 8;">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-
-        <!-- Tecnologies Item 2 -->
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center flex-column mt-5 pt-5">
-          <div class=" mx-auto ">
-            <img class="img-fluid rounded mb-2 anchura" src="img/linux.png" style="height: 8;">
-          </div>
-          <div class="">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-            <span class="far fa-star checked"></span>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
-
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact" style="background-color:#2c3e50;">
-    <div class="container">
-
-      <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star  text-white"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase text-center">Email</h4>
-          <p class="lead text-center text-white">gerardogcordero@outlook.com</p>
-          <a href="pdf/cv.pdf" target="_blank" class="text-uppercase text-center text-white">Curriculum Vitae</a>
-        </div>
-        <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase ">Location</h4>
-          <p class="lead ">Zacatecas, México 98085</p>
-        </div>
-
-        <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://twitter.com/igerardogc">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" target="_blank"
-            href="https://www.instagram.com/ggc.photographer/">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" target="_blank"
-            href="https://www.linkedin.com/in/igerardogc/">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>Copyright &copy; ing-GC 2019-2021</small>
-    </div>
-  </section>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-
-  <!-- Portfolio Modals -->
-
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">REPODEZ</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+<body>
+    <!-- Header Section -->
+    <header
+        class="md:sticky md:top-0 md:z-50 box-border relative block w-full h-auto py-6 leading-10 text-center text-indigo-900 bg-white md:py-8">
+        <div class="w-full px-4 mx-auto leading-10 text-center md:px-4 lg:px-6 max-w-7xl">
+            <div class="box-border flex flex-col flex-wrap items-center justify-between text-indigo-900 md:flex-row">
+                <div
+                    class="relative z-10 flex items-center w-auto px-4 leading-10 lg:flex-grow-0 lg:flex-shrink-0 lg:text-left">
+                    <a href="/"
+                        class="box-border inline-block font-sans text-2xl font-bold text-left text-indigo-900 no-underline bg-transparent cursor-pointer focus:no-underline">
+                        ing-GC
+                    </a>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/repodez.jpg" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="text-justify">
-                  The public registry of decentralized organizations in the state of Zacatecas is
-                  a web platform
-                  designed for decentralized organizations to
-                  publish public information that is relevant to citizens.
-                  This platform can be used by 4 different types of users, each playing their specific role.
+                <div
+                    class="relative left-0 z-0 flex justify-center w-full px-4 mt-4 space-x-6 font-medium leading-10 md:mt-0 md:absolute lg:space-x-8 md:flex-grow-0 md:text-left lg:text-center">
+                    <a id="g-hero" href="#hero"
+                        class="box-border inline-block text-center text-indigo-900 no-underline bg-transparent cursor-pointer hover:text-blue-700 focus:no-underline">
+                        Home
+                    </a>
+                    <a id="g-about" href="#about"
+                        class="box-border inline-block text-center text-indigo-900 no-underline bg-transparent cursor-pointer hover:text-blue-700 focus:no-underline">
+                        About me
+                    </a>
+                    <a id="g-projects" href="#projects"
+                        class="box-border inline-block text-center text-indigo-900 no-underline bg-transparent cursor-pointer hover:text-blue-700 focus:no-underline">
+                        Projects
+                    </a>
+                    <a id="g-skills" href="#skills"
+                        class="box-border inline-block text-center text-indigo-900 no-underline bg-transparent cursor-pointer hover:text-blue-700 focus:no-underline">
+                        Skills
+                    </a>
+                </div>
+                <div
+                    class="relative px-4 mt-2 font-medium leading-10 md:flex-grow-0 md:flex-shrink-0 md:mt-0 md:text-right lg:flex-grow-0 lg:flex-shrink-0">
+                    <a href="mailto:gerardogcordero@outlook.com"
+                        class="box-border inline-flex items-center h-10 px-4 text-base text-center text-indigo-900 no-underline align-middle bg-transparent border border-gray-300 rounded cursor-pointer select-none hover:bg-gray-50 hover:text-blue-700 focus:shadow-xs focus:no-underline">
+                        Contact me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section-->
+    <section id="hero" class="block sm:py-20 md:py-44 leading-7 text-left text-gray-900 bg-white">
+        <div class="relative w-full px-5 px-8 mx-auto leading-7 text-gray-900 max-w-7xl lg:px-16 xl:px-32">
+            <div class="flex flex-col flex-wrap items-center text-left md:flex-row">
+
+                <div class="flex-1 opacity-100 xl:pr-12 transform-none">
+                    <h1
+                        class="box-border mt-0 text-4xl font-normal tracking-tight text-center text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl mb-7 md:text-left">
+                        Gerardo Gallardo Software <span class="text-blue-600">Engineer</span>.
+                    </h1>
+
+                    <!-- Text -->
+                    <p
+                        class="box-border mt-0 mb-8 text-base font-normal text-center text-gray-500 lg:text-xl md:text-left lg:mb-8">
+                        Web developer, photography enthusiast and noob video games player.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="box-border leading-7 text-center text-gray-900 md:text-left">
+                        <a href="#_"
+                            class="inline-block w-full px-5 py-3 mb-3 mr-1 text-base font-semibold text-white no-underline align-middle bg-blue-600 border border-transparent border-solid rounded-md cursor-pointer select-none sm:mb-0 sm:w-auto hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700">
+                            About me
+                        </a>
+                        <a href="#_"
+                            class="inline-block w-full px-5 py-3 text-base font-semibold text-blue-600 no-underline align-middle border border-transparent border-solid rounded-md cursor-pointer select-none bg-blue-50 sm:w-auto hover:bg-blue-100 hover:text-blue-600 focus-within:bg-blue-100 focus-within:text-blue-600">
+                            Projects
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="relative flex justify-center flex-1 w-full px-5 mt-16 leading-7 text-gray-900 md:justify-end md:mt-0">
+                    <!-- Image -->
+                    <img src="https://cdn.devdojo.com/images/november2020/welcome.png" class="w-full max-w-md">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About me Section -->
+    <section id="about" class="py-32 bg-gray-50">
+        <div class="container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+            <div class="flex flex-wrap items-center -mx-3">
+                <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+                    <div class="w-full lg:max-w-md">
+                        <h2 class="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">
+                            About me</h2>
+                        <p class="mb-4 text-lg font-medium tracking-tight text-gray-400 xl:mb-6">
+                            I am a software engineer developing websites since 2018.
+                            <br><br>
+                            Thanks to my specialized training, I believe that I can add value and continue to develop
+                            professionally in a
+                            company that matches my values ​​and expectations. <br><br>
+                            As an organized and highly motivated person, I am able to adapt to any circumstance and
+                            always give my
+                            best in any project, at the same time that I strive to work as a team and promote values
+                            ​​such as companionship.
+                            <br><br>
+                            I am an enterprising person, who loves challenges and does not give up easily.
+                            Very detailed and self-taught every day, I never stop learning.
+                            <br><br>
+                            My main objective is to develop professionally and evolve in my sector,
+                            so I look for opportunities that allow me to do so.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img
+                        class="mx-auto sm:max-w-sm lg:max-w-full"
+                        src="https://cdn.devdojo.com/images/november2020/feature-graphic.png" alt="feature image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
+        <div class="px-20 mx-auto max-w-7xl">
+            <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Projects</h2>
+            <p class="mb-16 text-lg text-gray-500">A list of public projects that I have carried out during my time as a
+                software engineer.</p>
+        </div>
+        <div
+            class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+
+            <!-- Image -->
+            <div
+                class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+                <img src="respic.svg" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+            </div>
+
+            <!-- Content -->
+            <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+                <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                    RESPIC
+                </h2>
+                <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+                    In this portal you can find all the information regarding the attributions that Public Servants have
+                    in each of the steps that are carried out in the different hiring processes.
                 </p>
-                <p class="text-justify">
-                  This platform was developed in PHP 7.2
-                </p>
-                <div class="col-12 justify-content-center align-items-center flex-column">
-                  <a class="mr-5" target="_blank" href="https://github.com/ing-GC/">GitHub profile <i
-                      class="fab fa-github"></i></a>
-                  <a class="" target="_blank" href="https://repodez.zacatecas.gob.mx/">Website</a>
-                </div>
-              </div>
+                <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                    <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <a href="https://respic.zacatecas.gob.mx/" target="_blank"
+                            class="inline-flex items-center leading-7 text-blue-700 no-underline border-0 border-gray-200 cursor-pointer hover:text-blue-900 hover:underline focus-within:text-blue-700">
+                            Visit the website
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </div>
+            <!-- End  Content -->
         </div>
-      </div>
-    </div>
-  </div>
+        <div
+            class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:pt-24 md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
 
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SIDEC</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/sidec.JPG" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5 text-justify">
-                  The Citizen Complaint System (SIDEC) of the State of Zacatecas is the
-                  medium for
-                  than any citizen,
-                  can report mainly acts of corruption that involve public servants.
-                </p>.
-                <p class="text-justify">
-                  This platform was developed in PHP 7.2
+            <!-- Content -->
+            <div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+                <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                    SIDEC
+                </h2>
+                <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+                    The Citizen Complaint System (SIDEC) of the State of Zacatecas is the medium for than any citizen,
+                    can report mainly acts of corruption that involve public servants.
                 </p>
-                <div class="col-12 justify-content-center align-items-center flex-column">
-                  <a class="mr-5" target="_blank" href="https://github.com/ing-GC/">GitHub profile <i
-                      class="fab fa-github"></i></a>
-                  <a class="" target="_blank" href="https://sidec.zacatecas.gob.mx/">Website</a>
-                </div>
-              </div>
+                <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                    <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <a href="https://sidec.zacatecas.gob.mx/" target="_blank"
+                            class="inline-flex items-center leading-7 text-blue-700 no-underline border-0 border-gray-200 cursor-pointer hover:text-blue-900 hover:underline focus-within:text-blue-700">
+                            Visit the website
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+            <!-- End  Content -->
 
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">RESPIC</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/respic.JPG" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">
-                  In this portal you can find all the information regarding
-                  the attributions that Public Servants have in each of the steps that are
-                  carried out in the different hiring processes.
-                </p>
-                <p class="text-justify">
-                  This platform was developed in Laravel 7
-                </p>
-                <div class="col-12 justify-content-center align-items-center flex-column">
-                  <a class="mr-5" target="_blank" href="https://github.com/ing-GC/">GitHub profile <i
-                      class="fab fa-github"></i></a>
-                  <a class="" target="_blank" href="https://respic.zacatecas.gob.mx/">Website</a>
-                </div>
-              </div>
+            <!-- Image -->
+            <div
+                class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+                <img src="sidec.svg" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <div
+            class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:pt-24 md:flex-row max-w-7xl lg:px-16">
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <!-- Image -->
+            <div
+                class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+                <img src="repodez.svg" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+            </div>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+            <!-- Content -->
+            <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+                <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                    REPODEZ
+                </h2>
+                <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+                    In this portal you can find all the information regarding the attributions that Public Servants
+                    have in each of the steps that are carried out in the different hiring processes.
+                </p>
+                <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                    <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <a href="https://repodez.zacatecas.gob.mx/" target="_blank"
+                            class="inline-flex items-center leading-7 text-blue-700 no-underline border-0 border-gray-200 cursor-pointer hover:text-blue-900 hover:underline focus-within:text-blue-700">
+                            Visit the website
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End  Content -->
+        </div>
+    </section>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+    <!-- Skill Section -->
+    <section id="skills" class="pt-20 pb-32 bg-gray-50">
+        <div class="px-20 mx-auto max-w-7xl">
+            <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Skills</h2>
+            <p class="mb-16 text-lg text-gray-500">list of my strongest skills</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-16 lg:gap-x-24 gap-y-20">
+                <div>
+                    <div class="flex items-center justify-center w-12 h-12 mb-4 text-red-600 bg-red-100 rounded-full">
+                        <i class="fab fa-laravel fa-2x fas-lg"></i>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Laravel</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">Backend development.</p>
+                </div>
 
+                <div>
+                    <div
+                        class="flex items-center justify-center w-12 h-12 mb-4 text-green-600 bg-green-100 rounded-full">
+                        <i class="fab fa-vuejs fa-2x"></i>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Vue</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <div class="star-gray"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">Frontend development.</p>
+                </div>
+
+                <div>
+                    <div class="flex items-center justify-center w-12 h-12 mb-4 text-blue-600 bg-blue-100 rounded-full">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">jQuery</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">Frontend development.</p>
+                </div>
+
+                <div>
+                    <div
+                        class="flex items-center justify-center w-12 h-12 mb-4 text-purple-600 bg-purple-100 rounded-full">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">SQL</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">MySql and MariaDB.</p>
+                </div>
+
+                <div>
+                    <div
+                        class="flex items-center justify-center w-12 h-12 mb-4 text-indigo-600 bg-indigo-100 rounded-full">
+                        <i class="fab fa-css3-alt fa-2x"></i>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">CSS3</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">Bootstrap 4 and TailwindCSS.</p>
+                </div>
+
+                <div>
+                    <div class="flex items-center justify-center w-12 h-12 mb-4 text-pink-600 bg-pink-100 rounded-full">
+                        <i class="fas fa-box-open fa-lg"></i>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Vagrant</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">Work environments, Laravel homestead.</p>
+                </div>
+
+                <div>
+                    <div class="flex items-center justify-center w-12 h-12 mb-4 text-pink-600 bg-pink-100 rounded-full">
+                        <i class="fab fa-linux fa-2x"></i>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">GNU Linux</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">Command line.</p>
+                </div>
+
+                <div>
+                    <div class="flex items-center justify-center w-12 h-12 mb-4 text-pink-600 bg-pink-100 rounded-full">
+                        <i class="fas fa-praying-hands"></i>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Team work</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">Stop focusing on the "me" and create the "we".</p>
+                </div>
+
+                <div>
+                    <div class="flex items-center justify-center w-12 h-12 mb-4 text-pink-600 bg-pink-100 rounded-full">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Self learning</h3>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star-gray"></div>
+                    <p class="text-sm text-gray-500 lg:text-base">
+                        focused on learning about one or more topics in particular, 
+                        independently, which implies determination, effort, responsibility 
+                        and perseverance to achieve the desired goal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="box-border pt-5 leading-7 text-gray-900 bg-white border-0 border-gray-200 border-solid pb-7">
+        <div class="box-border px-4 mx-auto border-solid md:px-6 lg:px-8 max-w-7xl">
+            <div
+                class="relative flex flex-col items-start justify-between leading-7 text-gray-900 border-0 border-gray-200 md:flex-row md:items-center">
+                <a href="/"
+                    class="left-0 flex items-center justify-center order-first w-full mb-4 font-medium text-gray-900 md:justify-start md:absolute md:w-64 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center md:mb-0">
+                    <span class="text-xl font-black leading-none text-gray-900 select-none logo">ing-GC<span
+                            class="text-indigo-600">.</span></span>
+                </a>
+                <ul class="box-border flex mx-auto my-6 space-x-6">
+                    <li
+                        class="relative mt-2 leading-7 text-left text-gray-900 border-0 border-gray-200 md:border-b-0 md:mt-0">
+                        <a id="f-hero" href="#hero"
+                            class="box-border items-center block w-full px-4 text-base font-normal leading-normal text-gray-900 no-underline border-solid cursor-pointer hover:text-blue-600 focus-within:text-blue-700 sm:px-0 sm:text-left">Top</a>
+                    </li>
+                </ul>
+                <div
+                    class="box-border right-0 flex justify-center w-full mt-4 space-x-3 border-solid md:w-auto md:justify-end md:absolute md:mt-0">
+                    <a href="https://github.com/ing-GC" target="_blank"
+                        class="inline-flex items-center leading-7 text-gray-900 no-underline border-0 border-gray-200 cursor-pointer hover:text-blue-700 focus-within:text-blue-700">
+                        <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M0 0h24v24H0z" stroke="none"></path>
+                            <path
+                                d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/ggc.photographer" target="_blank"
+                        class="inline-flex items-center leading-7 text-gray-900 no-underline border-0 border-gray-200 cursor-pointer hover:text-blue-700 focus-within:text-blue-700">
+                        <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M0 0h24v24H0z" stroke="none"></path>
+                            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M16.5 7.5v.001"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="pt-4 mt-4 leading-7 text-center text-gray-600 border-t border-gray-200 md:mt-5 md:pt-5 md:mt-6 md:pt-6">
+                <p class="box-border mt-0 text-sm border-0 border-solid">
+                    © 2021 ing-GC. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AlpineJS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+    <script>
+        const hero = document.querySelector('#g-hero');
+        const about = document.querySelector('#g-about');
+        const projects = document.querySelector('#g-projects');
+        const skills = document.querySelector('#g-skills');
+
+        const f_hero = document.querySelector('#f-hero');
+        const f_about = document.querySelector('#f-about');
+        const f_projects = document.querySelector('#f-projects');
+        const f_skills = document.querySelector('#f-skills');
+
+        hero.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop,
+                behavior: "smooth"
+            });
+        });
+
+        about.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop,
+                behavior: "smooth"
+            });
+        });
+
+        projects.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop - 80,
+                behavior: "smooth"
+            });
+        });
+
+        skills.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop - 80,
+                behavior: "smooth"
+            });
+        });
+
+        f_hero.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop,
+                behavior: "smooth"
+            });
+        });
+
+        f_about.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop,
+                behavior: "smooth"
+            });
+        });
+
+        f_projects.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop - 80,
+                behavior: "smooth"
+            });
+        });
+
+        f_skills.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop - 80,
+                behavior: "smooth"
+            });
+        });
+    </script>
 </body>
 
 </html>
