@@ -444,11 +444,6 @@
         const projects = document.querySelector('#g-projects');
         const skills = document.querySelector('#g-skills');
 
-        const f_hero = document.querySelector('#f-hero');
-        const f_about = document.querySelector('#f-about');
-        const f_projects = document.querySelector('#f-projects');
-        const f_skills = document.querySelector('#f-skills');
-
         hero.addEventListener('click', function(e) {
             e.preventDefault();
 
@@ -485,41 +480,6 @@
             });
         });
 
-        f_hero.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            scroll({
-                top: document.querySelector(this.getAttribute('href')).offsetTop,
-                behavior: "smooth"
-            });
-        });
-
-        f_about.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            scroll({
-                top: document.querySelector(this.getAttribute('href')).offsetTop,
-                behavior: "smooth"
-            });
-        });
-
-        f_projects.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            scroll({
-                top: document.querySelector(this.getAttribute('href')).offsetTop - 80,
-                behavior: "smooth"
-            });
-        });
-
-        f_skills.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            scroll({
-                top: document.querySelector(this.getAttribute('href')).offsetTop - 80,
-                behavior: "smooth"
-            });
-        });
     </script>
 </body>
 
