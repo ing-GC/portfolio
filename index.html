@@ -399,7 +399,7 @@
                 <ul class="box-border flex mx-auto my-6 space-x-6">
                     <li
                         class="relative mt-2 leading-7 text-left text-gray-900 border-0 border-gray-200 md:border-b-0 md:mt-0">
-                        <a id="f-hero" href="#hero"
+                        <a id="footer-top" href="#hero"
                             class="box-border items-center block w-full px-4 text-base font-normal leading-normal text-gray-900 no-underline border-solid cursor-pointer hover:text-blue-600 focus-within:text-blue-700 sm:px-0 sm:text-left">Top</a>
                     </li>
                 </ul>
@@ -443,6 +443,7 @@
         const about = document.querySelector('#g-about');
         const projects = document.querySelector('#g-projects');
         const skills = document.querySelector('#g-skills');
+        const topHero = document.querySelector('#footer-top');
 
         hero.addEventListener('click', function (e) {
             e.preventDefault();
@@ -472,6 +473,15 @@
         });
 
         skills.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            scroll({
+                top: document.querySelector(this.getAttribute('href')).offsetTop - 80,
+                behavior: "smooth"
+            });
+        });
+
+        topHero.addEventListener('click', function (e) {
             e.preventDefault();
 
             scroll({
